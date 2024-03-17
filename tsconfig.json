@@ -1,0 +1,60 @@
+{
+    "compilerOptions": {
+        "allowJs": false,
+        "allowSyntheticDefaultImports": true,
+        "alwaysStrict": true,
+        "composite": false,
+        "declaration": true,
+        "declarationMap": true,
+        "downlevelIteration": true,
+        "emitDecoratorMetadata": true,
+        "esModuleInterop": true,
+        "experimentalDecorators": true,
+        "forceConsistentCasingInFileNames": true,
+        "importHelpers": true,
+        "jsx": "preserve",
+        "lib": ["dom", "dom.iterable", "esnext"],
+        "module": "esnext",
+        "target": "es5",
+        "moduleResolution": "node",
+        "noFallthroughCasesInSwitch": true,
+        "noImplicitAny": true,
+        "noImplicitReturns": false,
+        "noImplicitThis": true,
+        "noLib": false,
+        "noUnusedLocals": true,
+        "noUnusedParameters": true,
+        "preserveSymlinks": true,
+        "removeComments": true,
+        "resolveJsonModule": true,
+        "skipLibCheck": true,
+        "sourceMap": true,
+        "strict": true,
+        "strictFunctionTypes": true,
+        "strictNullChecks": true,
+        "strictPropertyInitialization": true,
+        "baseUrl": ".",
+        "paths": {
+            "assets/*": ["./assets/*"],
+            "app/*": ["./app/*"],
+            "components/*": ["./components/*"],
+            "constants/*": ["./constants/*"],
+            "features/*": ["./features/*"],
+            "hooks/*": ["./hooks/*"],
+            "libs/*": ["./libs/*"],
+            "utils/*": ["./utils/*"]
+        },
+        "plugins": [
+            {
+                "name": "next"
+            }
+        ],
+        "outDir": "dist",
+        "noEmit": false,
+        "isolatedModules": true,
+        "incremental": true
+    },
+
+    "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts"],
+    "exclude": ["node_modules"]
+}
